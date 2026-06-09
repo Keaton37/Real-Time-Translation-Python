@@ -136,7 +136,7 @@ while True:
         
        
         sliced= cv2.cvtColor(sliced, cv2.COLOR_BGR2RGB)
-        out.write(crop)
+        out.write(sliced)
         cv2.imshow('Live', sliced)
         
         
